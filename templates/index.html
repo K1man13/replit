@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Dog and Joke</title>
+</head>
+<body>
+  <style>
+      body {
+          font-family: Arial, sans-serif;
+          background-color: greenyellow;
+          margin: 0;
+          padding: 20px;
+          text-align: center;
+      }
+
+      h1 {
+          color: #333;
+      }
+
+      img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      h2 {
+          color: #555;
+          margin-top: 20px;
+      }
+
+      p {
+          font-size: 1.2em;
+          color: black;
+          margin: 20px 0;
+          padding: 10px;
+          background-color: limegreen;
+          border-radius: 8px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+  </style>
+    <h1>Hello World, this is a random pet</h1>
+    <img src="{{ dog_image_url }}" alt="Random Dog Image">
+
+    <h2>How about some jokes?</h2>
+    <p>{{ joke }}</p>
+</body>
+</html>
